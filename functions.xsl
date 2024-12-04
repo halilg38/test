@@ -22,10 +22,10 @@
   <xsl:variable name="l10n-doc">
     <xsl:choose>
       <xsl:when test="doc-available($l10n-filename)">
-        <xsl:sequence select="doc($l10n-filename)"/>
+        <xsl:sequence select="document($l10n-filename)"/>
       </xsl:when>
       <xsl:when test="doc-available($l10n-master-filename)">
-        <xsl:sequence select="doc($l10n-master-filename)"/>
+        <xsl:sequence select="document($l10n-master-filename)"/>
         <!--<xsl:message>Unable to find localization for {$lang}. Using default from de.xml.</xsl:message>-->
       </xsl:when>
       <xsl:otherwise>
@@ -38,7 +38,7 @@
   <xsl:variable name="l10n-master-doc">
     <xsl:choose>
       <xsl:when test="doc-available($l10n-master-filename)">
-        <xsl:sequence select="doc($l10n-master-filename)"/>
+        <xsl:sequence select="document($l10n-master-filename)"/>
         <!--<xsl:message>Unable to find localization for {$lang}. Using default from de.xml.</xsl:message>-->
       </xsl:when>
       <xsl:otherwise>

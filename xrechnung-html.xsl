@@ -8,7 +8,7 @@
 
     <xsl:output indent="yes" method="html" encoding="UTF-8" include-content-type="no" media-type="text/html" undeclare-prefixes="yes"/>
 
-  <xsl:import href="common-xr.xsl" />
+  <xsl:import href="https://raw.githubusercontent.com/halilg38/test/refs/heads/main/common-xr.xsl" />
 
   <xsl:param name="l10n-nl-lookup" select="true()" />
 

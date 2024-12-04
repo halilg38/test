@@ -4,7 +4,7 @@
     xmlns:xr="urn:ce.eu:en16931:2017:xoev-de:kosit:standard:xrechnung-1"
     exclude-result-prefixes="xs" version="2.0">
 
-    <xsl:include href="functions.xsl"/>
+    <xsl:include href="https://raw.githubusercontent.com/halilg38/test/refs/heads/main/functions.xsl"/>
 
     <xsl:variable name="datepattern" as="xs:string" select="'^[0-9]{8}'" />
 

@@ -13,7 +13,7 @@
   <xsl:param name="l10n-nl-lookup" select="false()"/>
 
   <!-- Filename with language file -->
-  <xsl:variable name="l10n-filename" select="'l10n/' || $lang || '.xml'"/>
+  <xsl:variable name="l10n-filename" select="'https://raw.githubusercontent.com/halilg38/test/refs/heads/main/de.xml'"/>
 
   <!-- Master localization file is German, it is used when key uses natural text in German to lookup proper key -->
   <xsl:variable name="l10n-master-filename" select="'https://raw.githubusercontent.com/halilg38/test/refs/heads/main/de.xml'"/>

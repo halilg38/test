@@ -10,7 +10,7 @@
 
   <xsl:import href="https://raw.githubusercontent.com/halilg38/test/refs/heads/main/common-xr.xsl" />
 
-  <xsl:param name="l10n-nl-lookup" select="true()" />
+  <xsl:param name="l10n-nl-lookup" select="false()" />
 
   <xsl:decimal-format name="de" decimal-separator="," grouping-separator="." NaN="" />
   <xsl:decimal-format name="en" decimal-separator="." grouping-separator="," NaN="" />

@@ -42,7 +42,7 @@
         <!--<xsl:message>Unable to find localization for {$lang}. Using default from de.xml.</xsl:message>-->
       </xsl:when>
       <xsl:otherwise>
-        <!--<xsl:message>Unable to find localization for {$lang}. Can't load default from de.xml. Using empty localization.</xsl:message>-->
+        <xsl:message>Unable to find localization for {$lang}. Can't load default from de.xml. Using empty localization.</xsl:message>
       </xsl:otherwise>
     </xsl:choose>
   </xsl:variable>

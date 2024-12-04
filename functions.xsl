@@ -10,7 +10,7 @@
   <xsl:param name="lang" select="'de'"/>
   
   <!-- Enable fallback lookup based on natural string in German --> 
-  <xsl:param name="l10n-nl-lookup" select="false()"/>
+  <xsl:param name="l10n-nl-lookup" select="true()"/>
 
   <!-- Filename with language file -->
   <xsl:variable name="l10n-filename" select="'https://raw.githubusercontent.com/halilg38/test/refs/heads/main/de.xml'"/>
